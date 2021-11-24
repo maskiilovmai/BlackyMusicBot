@@ -20,7 +20,6 @@ module.exports = async (client) => {
         `With ${client.guilds.cache.size} servers!`,
         `With ${client.users.cache.size} users!`,
         `With ${client.channels.cache.size} channels!`
-        ``
 
     ];
     setInterval(function() {
