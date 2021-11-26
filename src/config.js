@@ -10,12 +10,12 @@ module.exports = {
 
   nodes: {
      
-      host: "disbotlistlavalink.ml",
-      port: 443,
-      password: "LAVA",
-      id: "DisBotlist Lavalink",
+      host: "haru-music.eastus.cloudapp.azure.com/",
+      port: 80,
+      password: "maskiilovmai",
+      id: "Sakura",
       retryDelay: 3000,
-      secure: true
+      secure: false
     
     },
  
