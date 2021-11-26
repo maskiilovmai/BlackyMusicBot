@@ -10,7 +10,7 @@ module.exports = {
 
   nodes: {
      
-      host: "haru-music.eastus.cloudapp.azure.com",
+      host: "lavlink.maskiilovmai.repl.co",
       port: 443,
       password: "maskiilovmai",
       id: "Sakura",
