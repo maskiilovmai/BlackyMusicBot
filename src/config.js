@@ -11,7 +11,7 @@ module.exports = {
   nodes: {
      
       host: "haru-music.eastus.cloudapp.azure.com",
-      port: 80,
+      port: 2333,
       password: "maskiilovmai",
       id: "Sakura",
       retryDelay: 3000,
