@@ -10,7 +10,7 @@ module.exports = {
 
   nodes: {
      
-      host: "haru-music.eastus.cloudapp.azure.com/",
+      host: "haru-music.eastus.cloudapp.azure.com",
       port: 80,
       password: "maskiilovmai",
       id: "Sakura",
