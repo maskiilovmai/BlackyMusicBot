@@ -10,7 +10,7 @@ module.exports = {
 
   nodes: {
      
-      host: "lavalink-maskiilovmai.up.railway.app",
+      host: "lavalink.maskiilovmai.repl.co",
       port: 443,
       password: "maskiilovmai",
       id: "Sakura",
