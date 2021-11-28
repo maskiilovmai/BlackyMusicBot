@@ -14,7 +14,7 @@ module.exports = {
       port: 443,
       password: "maskiilovmai",
       id: "Sakura",
-      retryDelay: 10000,
+      retryDelay: 30000,
       secure: true
     
     },

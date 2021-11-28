@@ -5,8 +5,8 @@ module.exports = {
   description: "Leave voice channel",
   owner: false,
   player: false,
-  inVoiceChannel: true,
-  sameVoiceChannel: true,
+  inVoiceChannel: false,
+  sameVoiceChannel: false,
 
   /**
    * 
