@@ -32,14 +32,16 @@ module.exports = {
 			);
 
       const mainPage = new MessageEmbed()
-            .setAuthor('LavaMusic', 'https://media.discordapp.net/attachments/876035356460462090/888434725235097610/20210820_124325.png')
-            .setThumbnail('https://media.discordapp.net/attachments/876035356460462090/888434725235097610/20210820_124325.png')
+            .setAuthor(`${client.user.username}`,client.user.displayAvatarURL())
+            .setThumbnail(client.user.displayAvatarURL())
             .setColor('#303236')
             .addField('Creator', '[Blacky#6618](https://github.com/brblacky) And [Venom#9718](https://github.com/Venom9718/)', true)
             .addField('Organization', '[Blacky](https://github.com/brblacky)', true)
             .addField('Repository', '[Here](https://github.com/brblacky/lavamusic)', true)
             .addField('\u200b',
-                `This [Music BOT](https://github.com/brblacky/lavamusic/) is [Blacky](https://github.com/brblacky) and [Venom](https://github.com/Venom9718)'s Was created by blacky and Venom. He really wants to make his first open source project ever. Because he wants more for coding experience. In this project, he was challenged to make project with less bugs. Hope you enjoy using this Music BOT!`
+                `This [Music BOT](https://github.com/maskiilovmai/GlitchMusic) is using the source code of [Lava Music](https://github.com/brblacky/lavamusic/). Edited and operated by [Maskiilov Mai](https://github.com/maskiilovmai/GlitchMusic).`)
+            .addField('\u200b',
+                `[Lava Music](https://github.com/brblacky/lavamusic/) is [Blacky](https://github.com/brblacky) and [Venom](https://github.com/Venom9718)'s Was created by blacky and Venom. He really wants to make his first open source project ever. Because he wants more for coding experience. In this project, he was challenged to make project with less bugs. Hope you enjoy using this Music BOT!`
             )
         return message.reply({embeds: [mainPage], components: [row]});
     }
