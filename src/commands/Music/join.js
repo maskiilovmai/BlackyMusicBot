@@ -10,7 +10,7 @@ module.exports = {
     permission: [],
     owner: false,
     player: false,
-    inVoiceChannel: true,
+    inVoiceChannel: false,
     sameVoiceChannel: false,
  execute: async (message, args, client, prefix) => {
   
