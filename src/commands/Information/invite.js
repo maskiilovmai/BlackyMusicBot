@@ -25,11 +25,11 @@ module.exports = {
     new MessageButton()
     .setLabel("Sakura-Chan's Github")
     .setStyle("LINK")
-    .setURL("https://github.com/maskiilovmai/GlitchMusic"),
+    .setURL("https://github.com/maskiilovmai/BlackyMusicBot"),
     new MessageButton()
     .setLabel("Support")
     .setStyle("LINK")
-    .setURL("https://discord.io/GrenadeGaming")
+    .setURL("https://discord.io/MaskiilovCnD")
 			);
 
           const mainPage = new MessageEmbed()

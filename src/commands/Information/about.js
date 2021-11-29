@@ -24,11 +24,11 @@ module.exports = {
     new MessageButton()
     .setLabel("Sakura-Chan's GitHub")
     .setStyle("LINK")
-    .setURL("https://github.com/maskiilovmai/GlitchMusic"),
+    .setURL("https://github.com/maskiilovmai/BlackyMusicBot"),
     new MessageButton()
     .setLabel("Support")
     .setStyle("LINK")
-    .setURL("https://discord.io/GrenadeGaming")
+    .setURL("https://discord.io/MaskiilovCnD")
 			);
 
       const mainPage = new MessageEmbed()
@@ -36,12 +36,12 @@ module.exports = {
             .setThumbnail(client.user.displayAvatarURL())
             .setColor('#303236')
             .addField('Creator', '[Blacky#6618](https://github.com/brblacky) And [Venom#9718](https://github.com/Venom9718/)', true)
-            .addField('Organization', '[Blacky](https://github.com/brblacky)', true)
-            .addField('Repository', '[Here](https://github.com/brblacky/lavamusic)', true)
+            .addField('Edited by', '[Maskiilov Mai](https://github.com/maskiilovmai)', true)
+            .addField('Repository', `[${client.user.username}](https://github.com/maskiilovmai/BlackyMusicBot) Or [Lava Music](https://github.com/brblacky/lavamusic)`, true)
             .addField('\u200b',
-                `This [Music BOT](https://github.com/maskiilovmai/GlitchMusic) is using the source code of [Lava Music](https://github.com/brblacky/lavamusic/). Edited and operated by [Maskiilov Mai](https://github.com/maskiilovmai/GlitchMusic).`)
+                `This [Music BOT](https://github.com/maskiilovmai/BlackyMusicBot) is using the source code of [Lava Music](https://github.com/brblacky/lavamusic). Edited and operated by [Maskiilov Mai](https://github.com/maskiilovmai).`)
             .addField('\u200b',
-                `[Lava Music](https://github.com/brblacky/lavamusic/) is [Blacky](https://github.com/brblacky) and [Venom](https://github.com/Venom9718)'s Was created by blacky and Venom. He really wants to make his first open source project ever. Because he wants more for coding experience. In this project, he was challenged to make project with less bugs. Hope you enjoy using this Music BOT!`
+                `[Lava Music](https://github.com/brblacky/lavamusic) is [Blacky](https://github.com/brblacky) and [Venom](https://github.com/Venom9718)'s Was created by blacky and Venom. He really wants to make his first open source project ever. Because he wants more for coding experience. In this project, he was challenged to make project with less bugs. Hope you enjoy using this Music BOT!`
             )
         return message.reply({embeds: [mainPage], components: [row]});
     }
