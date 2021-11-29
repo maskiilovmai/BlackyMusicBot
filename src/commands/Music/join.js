@@ -10,8 +10,8 @@ module.exports = {
     permission: [],
     owner: false,
     player: false,
-    inVoiceChannel: false,
-    sameVoiceChannel: false,
+    inVoiceChannel: true,
+    sameVoiceChannel: true,
  execute: async (message, args, client, prefix) => {
   
 	    	const { channel } = message.member.voice;
