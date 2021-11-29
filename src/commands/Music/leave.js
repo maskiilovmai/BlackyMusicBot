@@ -10,8 +10,8 @@ module.exports = {
     permission: [],
     owner: false,
     player: true,
-    inVoiceChannel: true,
-    sameVoiceChannel: true,
+    inVoiceChannel: false,
+    sameVoiceChannel: false,
  execute: async (message, args, client, prefix) => {
        
         const player = message.client.manager.get(message.guild.id);

@@ -32,7 +32,7 @@ module.exports = {
 			);
 
       const mainPage = new MessageEmbed()
-            .setAuthor(`${client.user.username}`,client.user.displayAvatarURL())
+            .setAuthor(`${client.user.username}`, client.user.displayAvatarURL())
             .setThumbnail(client.user.displayAvatarURL())
             .setColor('#303236')
             .addField('Creator', '[Blacky#6618](https://github.com/brblacky) And [Venom#9718](https://github.com/Venom9718/)', true)
