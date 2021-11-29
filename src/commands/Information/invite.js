@@ -33,10 +33,10 @@ module.exports = {
 			);
 
           const mainPage = new MessageEmbed()
-            .setAuthor(`${client.user.usename}`, client.user.displayAvatarURL())
+            .setAuthor(`${client.user.username}`, client.user.displayAvatarURL())
             .setThumbnail(client.user.displayAvatarURL())
              .setColor('#303236')
-            .addField(`Invite ${client.user.usename}`, `[Here](https://discord.com/api/oauth2/authorize?client_id=${client.user.id}&permissions=36768832&scope=applications.commands%20bot)`, true)
+            .addField(`Invite ${client.user.username}`, `[Here](https://discord.com/api/oauth2/authorize?client_id=${client.user.id}&permissions=36768832&scope=applications.commands%20bot)`, true)
            message.reply({embeds: [mainPage], components: [row]})
     }
 				}
