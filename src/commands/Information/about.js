@@ -22,7 +22,7 @@ module.exports = {
     .setStyle("LINK")
     .setURL("https://github.com/brblacky/lavamusic"),
     new MessageButton()
-    .setLabel("Sakura-Chan's GitHub")
+    .setLabel(`${client.user.username}'s Github`)
     .setStyle("LINK")
     .setURL("https://github.com/maskiilovmai/BlackyMusicBot"),
     new MessageButton()
