@@ -79,11 +79,11 @@ class MusicBot extends Client {
       },
       [
         {
-          id: this.config.nodes.id,
+          //id: this.config.nodes.id,
           host: this.config.nodes.host,
           port: this.config.nodes.port,
           password: this.config.nodes.password,
-          secure: this.config.nodes.secure,
+          //secure: this.config.nodes.secure,
         },
       ]
     );
@@ -96,11 +96,11 @@ class MusicBot extends Client {
       ],
       nodes: [
         {
-          identifier: this.config.nodes.id,
+          //identifier: this.config.nodes.id,
           host: this.config.nodes.host,
           port: this.config.nodes.port,
           password: this.config.nodes.password,
-          secure: this.config.nodes.secure,
+          //secure: this.config.nodes.secure,
         },
       ],
       send(id, payload) {
