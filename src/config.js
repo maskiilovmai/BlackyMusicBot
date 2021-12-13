@@ -10,9 +10,9 @@ module.exports = {
 
   nodes: {
      
-      host: "lavalink2.devz.cloud",
+      host: "lavalink.maskiilovmai.repl.co",
       port: 443,
-      password: "mathiscool",
+      password: "maskiilovmai",
       //id: "Sakura",
       retryDelay: 30000,
       secure: true
