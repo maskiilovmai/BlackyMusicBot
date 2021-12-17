@@ -18,7 +18,7 @@ module.exports = async (client) => {
         'Music',
         'With everyone',
         `With ${client.guilds.cache.size} servers!`,
-        `With ${client.users.cache.size} users!`,
+        `With ${client.guilds.cache.reduce((a, b) => a + b.memberCount, 0)} users!`,
         `With ${client.channels.cache.size} channels!`
 
     ];
