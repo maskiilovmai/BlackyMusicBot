@@ -24,7 +24,7 @@ module.exports = async (client) => {
     ];
     setInterval(function() {
   		let status = statuses[Math.floor(Math.random()*statuses.length)];
-  		client.user.setActivity(status, {type: "STREAMING", url: "https://twitch.tv/maikimlong2"});
+  		client.user.setActivity(status, {type: "STREAMING", url: "https://www.youtube.com/watch?v=dQw4w9WgXcQ"});
   	}, 5000)
 
 }
